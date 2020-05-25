@@ -1,0 +1,53 @@
+[
+{
+"NfInstanceId": "0",
+"NfType": "NRF",
+"NfStatus": "Registered",
+"PlmnList": [
+{
+   "Mcc": "1",
+   "Mnc": "111"
+}
+],
+"NsiList": [
+"140.113.1.1"
+],
+"AllowedPlmns":[
+{
+   "Mcc": "111",
+   "Mnc": "111"
+}
+],
+"AllowedNfTypes": [
+  "NRF"
+]
+}
+]
+
+[
+{
+"NfInstanceId": "1",
+"NfType": "NRF",
+"NfStatus": "Not Registered",
+"PlmnList": [
+{
+   "Mcc": "2",
+   "Mnc": "222"
+}
+],
+"NsiList": [
+"140.113.1.2"
+],
+"AllowedPlmns":[
+{
+   "Mcc": "222",
+   "Mnc": "222"
+}
+],
+"AllowedNfTypes": [
+  "NRF"
+]
+}
+]
+
+
